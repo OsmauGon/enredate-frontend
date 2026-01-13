@@ -1,0 +1,65 @@
+:root{
+    --verdeDELlogo: #2F9597;
+    --naranjaDELlogo: #E58A55;
+    --blancoDELlogo: #FBF6F3;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    /* background: linear-gradient(to right, #007bff, #0056b3); azul lindo*/    
+    /*background: linear-gradient(to right, #00cc99, #66ff99); */    
+    background: linear-gradient(to right, var(--verdeDELlogo), #00cc99);  
+    color: var(--blancoDELlogo);
+}
+.greenbackground {
+    /* background: linear-gradient(to right, #007bff, #0056b3); azul lindo*/    
+    /*background: linear-gradient(to right, #00cc99, #66ff99); */    
+    background: linear-gradient(to right, var(--verdeDELlogo), #00cc99);  
+    color: black;
+}
+
+#results .card {
+    margin-bottom: 1rem;
+}
+.container{
+    
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.container img{
+    width: 200px;
+    overflow: hidden;
+    border-radius: 30%;
+}
+.container b{
+    color: var(--naranjaDELlogo)
+}
+.btn {
+    background-color: var(--naranjaDELlogo);
+    border-color: var(--naranjaDELlogo);
+    color: white;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: transparent;
+    color: var(--naranjaDELlogo);
+    border-color: var(--naranjaDELlogo);
+    transition: .3s
+}
+#acompanantes, #casos, #info, #comunidad, #supervision {
+    background-color: var(--blancoDELlogo);
+}
