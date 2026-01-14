@@ -1,0 +1,27 @@
+@import url(./estilos1.css);
+
+#comunidad{}
+#comunidad .container div{
+    background-color: white;
+    border: 2px solid rgb(190,190,190);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 16px;
+}
+#comunidad button{
+    width: 110px;
+    background-color: var(--naranjaDELlogo);
+    margin-left: 6px;
+    padding: 3px;
+    border: none;
+    border: 2px solid  var(--naranjaDELlogo);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+}
+#comunidad button:hover{
+    color:  var(--naranjaDELlogo);
+    border: 2px solid  var(--naranjaDELlogo);
+    background-color: transparent;
+    transition: .3s;
+}

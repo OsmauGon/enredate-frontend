@@ -1,0 +1,12 @@
+#casos .row .col-md-6{
+    margin-bottom: 5px;
+}
+#casos button {
+    font-weight: 700;
+    color: #E58A55;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    margin-top: 8px;
+    right: 40px;
+}

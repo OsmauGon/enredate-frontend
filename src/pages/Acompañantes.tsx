@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import type { specialistsType } from '../../public/especialistasSimulados';
-import { CatalogoDEespecialistas } from '../components/CatalogoDEespecialistas';
+//import { CatalogoDEespecialistas } from '../components/CatalogoDEespecialistas';
 import EspecialistaChico from '../components/EspecialistaChico';
 import { specialists } from '../../public/especialistasSimulados';
+import { CatalogoDeEspecialistas } from '../components/CatalogoDeEspecialistas2';
 
 type Props = {
     rapidSearch :boolean;
@@ -50,7 +51,7 @@ export const Acompañantes = (props: Props) => {
                                   </div>
                               </form>
                             </> 
-                          : <CatalogoDEespecialistas></CatalogoDEespecialistas>
+                          : <CatalogoDeEspecialistas especialistas={specialists}></CatalogoDeEspecialistas>
             }
             <div id="results" className="row">
                 {(specialist.length > 0) ? specialist.map(one => (<EspecialistaChico key={one.id} one={one}></EspecialistaChico>)) : ""}

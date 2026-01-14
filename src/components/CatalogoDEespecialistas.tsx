@@ -1,4 +1,4 @@
-
+/* 
 import '../styles/acompanantes.css'
 import { Grid } from "@mui/material";
 import { EspecialistaGrande } from './EspecialistaGrande';
@@ -21,7 +21,10 @@ export const CatalogoDEespecialistas = () => {
             />
           </Grid>
         ))}
-      </Grid>
+      </Grid> 
     </div>
     )
-}
+} */
+ 
+
+//PODEMOS BORRAR

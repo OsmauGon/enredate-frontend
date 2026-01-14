@@ -2,6 +2,8 @@ import './styles/estilos1.css'
 import {Haeder} from './components/Haeder'
 import { useState } from 'react'
 import { Acompañantes } from './pages/Acompañantes'
+import { Casos } from './pages/Casos'
+import { Comunidad } from './pages/Comunidad'
 
 function App() {
   const [rapidSearch,setRapidSearch] = useState<boolean>(true)
@@ -9,6 +11,8 @@ function App() {
     <>
     <Haeder setRapidSearch={setRapidSearch}></Haeder>
     <Acompañantes rapidSearch={rapidSearch}></Acompañantes>
+    <Casos></Casos>
+    <Comunidad></Comunidad>
     {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/especialistas" element={<Acompañantes rapidSearch={rapidSearch}></Acompañantes>} />
@@ -17,57 +21,30 @@ function App() {
         <Route path="/infoutil" element={<Infoutil />} />
       </Routes> */}
 
-    {/* <!-- Sección Casos (nueva) --> */}
-    <section id="casos" className="py-5">
-        <div className="container">
-            <h2>Casos</h2>
-            <p>Explora casos reales de acompañantes terapéuticos para inspirarte o aprender.</p>
-            {/* <!-- Placeholder: Agrega contenido dinámico aquí, ej. lista de casos --> */}
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Caso 1: Ansiedad en Jóvenes</h5>
-                            <p className="card-text">Descripción breve del caso y cómo se abordó.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Caso 2: Terapia Familiar</h5>
-                            <p className="card-text">Descripción breve del caso y cómo se abordó.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     {/* <!-- Sección Info Útil (nueva) --> */}
-    <section id="info" className="py-5">
+    {/* <section id="info" className="py-5">
         <div className="container">
             <h2>Info Útil</h2>
             <p>Recursos y consejos para el bienestar emocional.</p>
-           {/*  <!-- Placeholder: Agrega artículos, enlaces o videos --> */}
             <ul>
                 <li><a href="#">Cómo manejar el estrés</a></li>
                 <li><a href="#">Beneficios de la terapia</a></li>
                 <li><a href="#">Guía para elegir un terapeuta</a></li>
             </ul>
         </div>
-    </section>
+    </section> */}
 
     {/* <!-- Sección Comunidad (nueva) --> */}
-    <section id="comunidad" className="py-5">
+    {/* <section id="comunidad" className="py-5">
         <div className="container">
             <h2>Comunidad</h2>
             <p>Registrate como profesional</p>
             <p>Únete a foros y grupos de apoyo.</p>
-            {/* <!-- Placeholder: Agrega un foro simple o enlaces a redes sociales --> */}
             <p>Próximamente: Foro interactivo para compartir experiencias.</p>
         </div>
-    </section>
+    </section> */}
 
     {/* <!-- Sección Supervisión (nueva) --> */}
     <section id="supervision" className="py-5">
