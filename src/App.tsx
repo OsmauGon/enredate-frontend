@@ -4,22 +4,39 @@ import { useState } from 'react'
 import { Acompañantes } from './pages/Acompañantes'
 import { Casos } from './pages/Casos'
 import { Comunidad } from './pages/Comunidad'
+import { Footer } from './components/Footer'
+import { Route, Routes } from 'react-router-dom'
+import { PageHome } from './pages/PageHome'
+import { PageAcompanantes } from './pages/PageAcompanantes'
+import { PageCasos } from './pages/PageCasos'
+import { PageComunidad } from './pages/PageComunidad'
+import { PageInfoutil } from './pages/PageInfoutil'
+import { PageSupervision } from './pages/PageSupervision'
 
 function App() {
   const [rapidSearch,setRapidSearch] = useState<boolean>(true)
   return (
     <>
     <Haeder setRapidSearch={setRapidSearch}></Haeder>
+    {/* 
     <Acompañantes rapidSearch={rapidSearch}></Acompañantes>
     <Casos></Casos>
     <Comunidad></Comunidad>
-    {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/especialistas" element={<Acompañantes rapidSearch={rapidSearch}></Acompañantes>} />
-        <Route path="/casos" element={<Casos />} />
-        <Route path="/comunidad" element={<Comunidad />} />
-        <Route path="/infoutil" element={<Infoutil />} />
-      </Routes> */}
+     */}
+    
+    <main>
+        <Routes>
+            <Route path="/" element={<PageHome />} />
+            <Route path="/ats" element={<PageAcompanantes></PageAcompanantes>} />
+            <Route path="/casos" element={<PageCasos/>} />
+            <Route path="/comunidad" element={<PageComunidad />} />
+            <Route path="/infoutil" element={<PageInfoutil />} />
+            <Route path="/supervision" element={<PageSupervision />} />
+            
+        </Routes>
+    </main> 
+   
+    <Footer></Footer>
 
     
 
@@ -47,15 +64,14 @@ function App() {
     </section> */}
 
     {/* <!-- Sección Supervisión (nueva) --> */}
-    <section id="supervision" className="py-5">
+    {/* <section id="supervision" className="py-5">
         <div className="container">
             <h2>Supervisión</h2>
             <p>Recursos para supervisores y profesionales en formación.</p>
-            {/* <!-- Placeholder: Agrega formularios o listas --> */}
             <p>Accede a sesiones de supervisión virtual o recursos educativos.</p>
         </div>
     </section>
-
+    */}
     {/* <!-- Modal para Perfil y Contacto (sin cambios) --> */}
     <div className="modal fade" id="specialistModal" >
         <div className="modal-dialog">

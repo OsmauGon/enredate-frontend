@@ -4,6 +4,7 @@ export type Caso = {
     dx: string;
     edad: number;
     os: string;
-    contacto: string[]
+    contacto: string[];
+    solicitud: string;
     
 }

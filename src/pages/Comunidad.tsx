@@ -15,7 +15,7 @@ export const Comunidad = (props: Props) => {
             <h2>Comunidad</h2>
             <p>Nuestra comunidad siempre tiene los brazos abiertos!!!</p>
             <div className="registro">
-            Deseo formar parte como {registerType}
+            <img className='icono' src="/img/projectIcon.png" alt="" />Deseo formar parte como {registerType}
             {(registerType === ':') ? <>
                                         <button onClick={()=> setregistertype("Especialista")}>Especialista</button>
                                         <button onClick={()=> setregistertype("Usuario")}>Usuario</button>
@@ -24,7 +24,7 @@ export const Comunidad = (props: Props) => {
             {(registerType === 'Usuario') ? <FormularioDEusuario></FormularioDEusuario> : ""}
             </div>
             <div className="eventos">
-              <p>Eventos y grupos de apoyo.</p>
+              <img className='icono' src="/img/projectIcon.png" alt="" />Eventos y grupos de apoyo.
             </div>
             {/* <!-- Placeholder: Agrega un foro simple o enlaces a redes sociales --> */}
             {/*  <p>Próximamente: Foro interactivo para compartir experiencias.</p> */}

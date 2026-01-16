@@ -7,12 +7,12 @@ export type specialistsType = {
     foto: string;
     disponible: boolean;
     habilitado: boolean;
-    titulo: string;
+    titulo?: string;
 }
 export const specialists = [
     { id: "1", nombre: "Ana López", ubicacion: "Madrid", practica: "Psicología", casos: "Ayuda en ansiedad y depresión.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },
-    { id: "2", nombre: "Carlos Ruiz", ubicacion: "Barcelona", practica: "Terapia Cognitiva", casos: "Tratamiento de trastornos de estrés.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },
-    { id: "3", nombre: "Benito Gimenez", ubicacion: "Tokio", practica: "Psicología", casos: "Ayuda en ansiedad y depresión.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },
+    { id: "2", nombre: "Carlos Ruiz", ubicacion: "Barcelona", practica: "Terapia Cognitiva", casos: "Tratamiento de trastornos de estrés.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Tecnic@" },
+    { id: "3", nombre: "Benito Gimenez", ubicacion: "Tokio", practica: "Psicología", casos: "Ayuda en ansiedad y depresión.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: undefined },
     { id: "4", nombre: "Esteban Andalucia", ubicacion: "Denber", practica: "Terapia Cognitiva", casos: "Tratamiento de trastornos de estrés.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },
     { id: "5", nombre: "Ivan Perez", ubicacion: "Lisboa", practica: "Psicología", casos: "Ayuda en ansiedad y depresión.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },
     { id: "6", nombre: "Pedro Martin", ubicacion: "Moscu", practica: "Terapia Cognitiva", casos: "Tratamiento de trastornos de estrés.", foto: "analopez.webp", disponible: true, habilitado: true, titulo: "Licenciad@" },

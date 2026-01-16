@@ -42,8 +42,8 @@ export const CatalogoDeEspecialistas: React.FC<Props> = ({ especialistas }) => {
         {filtrados.map((esp) => (
           <div key={esp.id} className="tarjeta">
             <img src={`img/${esp.foto}`} alt={`Foto de ${esp.nombre}`} />
-            <h5>{esp.nombre}</h5>
-            <p className="titulo">{esp.titulo}</p>
+            <h5>{(esp.titulo ? esp.titulo[0] + esp.titulo[1] + esp.titulo[2] + ".": "")} {esp.nombre}</h5>
+            {esp.titulo ? <p className="titulo">{esp.titulo}</p> : ""}
 
             <button
               className="flecha"

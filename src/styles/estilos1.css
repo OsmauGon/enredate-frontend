@@ -6,6 +6,36 @@
 body {
     font-family: Arial, sans-serif;
 }
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{}
+main{
+    flex: 1;
+    background-color: red;
+}
+main section{
+    height: 100%;
+    
+    overflow: auto;
+}
+footer{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero {
     /* background: linear-gradient(to right, #007bff, #0056b3); azul lindo*/    

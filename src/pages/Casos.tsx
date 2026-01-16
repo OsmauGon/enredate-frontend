@@ -27,7 +27,8 @@ export const Casos = (props: Props) => {
                               <details>
                                 <summary><b>DX</b>: {caso.dx}</summary>
                                 <b>Obra Social</b>: {caso.os} <br></br>
-                                <b>Contacto</b>: {caso.contacto.join(" - ")}
+                                <b>Contacto</b>: {caso.contacto.join(" - ")}<br></br>
+                                <p>{caso.solicitud}</p>
                               </details>
                           </div>
                       </div>
@@ -35,7 +36,7 @@ export const Casos = (props: Props) => {
                   ))
                 }
             </div>
-            <button  onClick={()=> setcasesNum(prev => prev + 1)}>Mas casos...</button>
+            {(casesNum < casos.length) ? <button  onClick={()=> setcasesNum(prev => prev + 1)}>Mas casos...</button> : ""}
         </div>
     </section>
     </>

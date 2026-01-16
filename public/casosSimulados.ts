@@ -4,7 +4,8 @@ type Caso = {
     dx: string;
     edad: number;
     os: string;
-    contacto: string[]
+    contacto: string[];
+    solicitud: string;
     
 }
 export const simulatedCases :Caso[] = [
@@ -14,7 +15,9 @@ export const simulatedCases :Caso[] = [
         dx: "TDH",
         edad: 12,
         os: "OSDEPYM",
-        contacto:["juan@hotmail.com","223678921"]
+        contacto:["juan@hotmail.com","223678921"],
+        solicitud: "Se busca un acompañante terapeutico (varon excluyente) para un turno de mañana"
+        
     },
     {
         id: 2,
@@ -22,7 +25,8 @@ export const simulatedCases :Caso[] = [
         dx: "TDH",
         edad: 24,
         os: "OSDEPYM",
-        contacto:["juan@hotmail.com","223678921"]
+        contacto:["juan@hotmail.com","223678921"],
+        solicitud: "Se busca un acompañante terapeutico (varon excluyente) para un turno de mañana"
     },
     {
         id: 3,
@@ -30,7 +34,8 @@ export const simulatedCases :Caso[] = [
         dx: "TDH",
         edad: 36,
         os: "OSDEPYM",
-        contacto:["juan@hotmail.com","223678921"]
+        contacto:["juan@hotmail.com","223678921"],
+        solicitud: "Se busca un acompañante terapeutico (varon excluyente) para un turno de mañana"
     },
     {
         id: 1,
@@ -38,6 +43,7 @@ export const simulatedCases :Caso[] = [
         dx: "TDH",
         edad: 72,
         os: "OSDEPYM",
-        contacto:["juan@hotmail.com","223678921"]
+        contacto:["juan@hotmail.com","223678921"],
+        solicitud: "Se busca un acompañante terapeutico (varon excluyente) para un turno de mañana"
     },
 ]
