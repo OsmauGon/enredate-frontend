@@ -1,42 +1,37 @@
-import React from 'react'
-
-type Props = {}
-
-export const PageAcompanantes = (props: Props) => {
-  return (
-    <section>PageAcompanantes
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia, libero soluta ab cumque distinctio officiis illo tempore nam facilis saepe fugit placeat quia sequi natus commodi ipsa. Perferendis, assumenda.
-    </section>
-  )
+import '../styles/acompanantes.css'
+import React, { useState } from "react";
+import { Grid } from "@mui/material";
+import type { Especialista } from "../types/especialista";
+import FiltroBar from "../components/FilterBarAcompanantes";
+import RegistroCard from "../components/TarjetaAcompanante";
+import { specialists } from "../../public/especialistasSimulados";
+interface RegistroGridProps {
+  registros: Especialista[];
 }
+
+export const PageAcompanantes: React.FC<RegistroGridProps> = () => {
+  const [registros,setRegistros] = useState<Especialista[]>(specialists)
+  const [filtros, setFiltros] = useState({ nombre: "", disponible: false });
+
+  const registrosFiltrados = registros.filter((r) => {
+    const matchNombre = r.nombre
+      .toLowerCase()
+      .includes(filtros.nombre.toLowerCase());
+    const matchDisponible = filtros.disponible ? r.disponible : true;
+    return matchNombre && matchDisponible;
+  });
+
+  return (
+    <section id='acompanantes'>
+      <FiltroBar filtros={filtros} onChange={setFiltros} />
+      <Grid className={"catalogo"} container spacing={2}>
+        {registrosFiltrados.map((registro) => (
+          <Grid key={registro.id}>
+            <RegistroCard registro={registro} />
+          </Grid>
+        ))}
+      </Grid>
+    </section>
+  );
+};
+

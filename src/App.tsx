@@ -12,6 +12,7 @@ import { PageCasos } from './pages/PageCasos'
 import { PageComunidad } from './pages/PageComunidad'
 import { PageInfoutil } from './pages/PageInfoutil'
 import { PageSupervision } from './pages/PageSupervision'
+import { PageLogin } from './pages/PageLogin'
 
 function App() {
   const [rapidSearch,setRapidSearch] = useState<boolean>(true)
@@ -32,6 +33,7 @@ function App() {
             <Route path="/comunidad" element={<PageComunidad />} />
             <Route path="/infoutil" element={<PageInfoutil />} />
             <Route path="/supervision" element={<PageSupervision />} />
+            <Route path="/login" element={<PageLogin />} />
             
         </Routes>
     </main> 

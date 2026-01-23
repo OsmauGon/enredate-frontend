@@ -1,0 +1,62 @@
+@import url(./estilos1.css);
+
+
+
+
+#acompanantes .filterBar{
+    width: 50%;
+    background: linear-gradient(to right, var(--verdeDELlogo), #00cc99); 
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+#acompanantes .filterBar svg{
+    color: var(--blancoDELlogo);
+}
+#acompanantes .filterBar label{
+    color: var(--blancoDELlogo);
+}
+#acompanantes .filterBar input{
+    border: none;
+    border-bottom: 3px solid var(--blancoDELlogo);
+    background-color: transparent;
+
+}
+#acompanantes .filterBar input:focus {
+  outline: none;
+}
+
+#acompanantes .filterBar input::placeholder{
+    color: var(--blancoDELlogo);
+}
+
+
+
+
+#acompanantes .catalogo{
+    /* height: 372px;
+    overflow: auto; */
+    display: flex;
+    justify-content: center;
+}
+.tarjeta-acompanante{
+  width: 250px;
+  border: 2px solid #00cc99;
+}
+.desable b{
+    color: var(--naranjaDELlogo);
+    font-size: 12px;
+    float: inline-end;
+
+}
+.desable .tarjeta-header{
+    padding-bottom: 0;
+}
+.desable .at-image-byn{
+    filter: grayscale(100%);
+}
+.tarjeta-acompanante span{
+  font-size: 16px;
+}

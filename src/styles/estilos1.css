@@ -14,14 +14,16 @@ body {
 header{}
 main{
     flex: 1;
-    background-color: red;
+    
 }
 main section{
-    height: 100%;
-    
-    overflow: auto;
 }
 footer{
+    background: linear-gradient(to right, var(--verdeDELlogo), #00cc99);  
+    color: var(--blancoDELlogo);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 

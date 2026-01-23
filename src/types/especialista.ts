@@ -2,12 +2,13 @@ export type Especialista = {
     id: number,
     nombre: string;
     email: string;
-    phone: string | number;
+    phone: string;
     ubicacion: string;
-    ambito: "no se";
+    ambito: string;
     rangoEtareo: string[];
-    titulo: string;
+    titulo?: string;
     disponible: boolean;
     habilitado: boolean;
+    imagen: string;
 
 }
