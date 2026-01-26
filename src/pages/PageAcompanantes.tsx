@@ -5,12 +5,11 @@ import type { Especialista } from "../types/especialista";
 import FiltroBar from "../components/FilterBarAcompanantes";
 import RegistroCard from "../components/TarjetaAcompanante";
 import { specialists } from "../../public/especialistasSimulados";
-interface RegistroGridProps {
-  registros: Especialista[];
-}
 
-export const PageAcompanantes: React.FC<RegistroGridProps> = () => {
-  const [registros,setRegistros] = useState<Especialista[]>(specialists)
+
+
+export const PageAcompanantes: React.FC = () => {
+  const [registros] = useState<Especialista[]>(specialists)
   const [filtros, setFiltros] = useState({ nombre: "", disponible: false });
 
   const registrosFiltrados = registros.filter((r) => {

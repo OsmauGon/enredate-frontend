@@ -10,3 +10,12 @@
     margin-top: 8px;
     right: 40px;
 }
+
+
+
+
+#casos .catalogo{
+    
+    display: flex;
+    justify-content: center;
+}

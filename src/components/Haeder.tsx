@@ -1,11 +1,9 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 
-type Props = {
-    setRapidSearch :(value: boolean)=> void
-}
 
-export const Haeder = (props: Props) => {
+
+export const Haeder = () => {
   return (
     <>
     {/* 

@@ -1,10 +1,9 @@
 import React from 'react'
+import UnderConstruction from '../components/UnderConstruction';
 
 type Props = {}
 
 export const PageInfoutil = (props: Props) => {
-  return (
-    <div>Page</div>
-  )
+  return <UnderConstruction message="Pagina en construccion ✨" />;
 }
 

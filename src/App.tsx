@@ -1,9 +1,5 @@
 import './styles/estilos1.css'
 import {Haeder} from './components/Haeder'
-import { useState } from 'react'
-import { Acompañantes } from './pages/Acompañantes'
-import { Casos } from './pages/Casos'
-import { Comunidad } from './pages/Comunidad'
 import { Footer } from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { PageHome } from './pages/PageHome'
@@ -12,13 +8,12 @@ import { PageCasos } from './pages/PageCasos'
 import { PageComunidad } from './pages/PageComunidad'
 import { PageInfoutil } from './pages/PageInfoutil'
 import { PageSupervision } from './pages/PageSupervision'
-import { PageLogin } from './pages/PageLogin'
+import { PageLoginreg } from './pages/PageLogin'
 
 function App() {
-  const [rapidSearch,setRapidSearch] = useState<boolean>(true)
   return (
     <>
-    <Haeder setRapidSearch={setRapidSearch}></Haeder>
+    <Haeder></Haeder>
     {/* 
     <Acompañantes rapidSearch={rapidSearch}></Acompañantes>
     <Casos></Casos>
@@ -33,7 +28,7 @@ function App() {
             <Route path="/comunidad" element={<PageComunidad />} />
             <Route path="/infoutil" element={<PageInfoutil />} />
             <Route path="/supervision" element={<PageSupervision />} />
-            <Route path="/login" element={<PageLogin />} />
+            <Route path="/login" element={<PageLoginreg />} />
             
         </Routes>
     </main> 
