@@ -35,7 +35,7 @@ const RegistroCard: React.FC<RegistroCardProps> = ({ registro }) => {
       <CardMedia
         className={registro.disponible ? "at-image" : "at-image-byn"}
         component="img"
-        image={`../../img/${registro.imagen}`}
+        image={registro.imagen}
         alt={registro.nombre}
       />
       <Collapse in={expanded} timeout="auto" unmountOnExit>

@@ -7,15 +7,23 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    margin-top: 8px;
-    right: 40px;
+    /* margin-top: 8px;
+    right: 40px; */
 }
 
 
 
-
+#casos .casos-button{
+    display: block;
+    width: 150px;
+    margin: 5px auto;
+}
 #casos .catalogo{
-    
     display: flex;
     justify-content: center;
+}
+#casos .catalogo .tarjeta-caso{
+    width: 250px;
+    background-image: url(../../img/tarjeta-caso-background.png);
+    background-repeat: repeat;
 }
